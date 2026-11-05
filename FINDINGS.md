@@ -16,12 +16,10 @@ Kaiser, Polosukhin (NIPS 2017). arXiv:1706.03762 (v7, cs.CL).
 **Verdict: CONFIRMED**
 
 - **Abstract:** "Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation
-  task, improving over the existing best results, including ensembles, by over 2 BLEU."
-  (PDF page 1)
+  task, improving over the existing best results, including ensembles, by over 2 BLEU." (PDF page 1)
 - **Results, Section 6.1 (Machine Translation):** "the big transformer model (Transformer
   (big) in Table 2) outperforms the best previously reported models (including ensembles)
-  by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4."
-  (PDF page 8)
+  by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4." (PDF page 8)
 - **Table 2 (PDF page 8):** Transformer (big) — EN-DE **28.4** BLEU.
 
 ### Claim 2 — "reports a single-model state-of-the-art score of 41.8 BLEU on WMT 2014 English-to-French"
@@ -30,8 +28,7 @@ Kaiser, Polosukhin (NIPS 2017). arXiv:1706.03762 (v7, cs.CL).
 
 - **Abstract:** "On the WMT 2014 English-to-French translation task, our model establishes a
   new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight
-  GPUs, a small fraction of the training costs of the best models from the literature."
-  (PDF page 1)
+  GPUs, a small fraction of the training costs of the best models from the literature." (PDF page 1)
 - **Results, Section 6.1 (Machine Translation):** "our big model achieves a BLEU score of
   41.0, outperforming all of the previously published single models, at less than 1/4 the
   training cost of the previous state-of-the-art model." (PDF page 8)
@@ -48,8 +45,7 @@ Kaiser, Polosukhin (NIPS 2017). arXiv:1706.03762 (v7, cs.CL).
 **Verdict: CONFIRMED (with a precision note)**
 
 - **Abstract:** "...after training for 3.5 days on eight GPUs..." (PDF page 1)
-- **Results, Section 6.1 (Machine Translation):** "Training took 3.5 days on 8 P100 GPUs."
-  (PDF page 8)
+- **Results, Section 6.1 (Machine Translation):** "Training took 3.5 days on 8 P100 GPUs." (PDF page 8)
 
 > Precision note: the paper specifies the GPUs were **P100** units, and Section 6.1 ties this
 > 3.5-day / 8-GPU budget to the *big model*. The draft's claim is accurate as stated.
@@ -86,8 +82,9 @@ Looked up on Hugging Face (model card: https://hf.co/google-bert/bert-base-uncas
 
 - **Task tag:** `fill-mask` — confirmed.
 - **Model card tags include `arxiv:1810.04805`** — the BERT paper (Devlin et al.,
-  "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding") — confirmed.
-- **Downloads at time of lookup:** **3268.9M** (≈3.27 billion; 3,043 likes).
+  "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding") —
+  confirmed.
+- **Downloads at time of today's lookup:** **3284.0M** (≈3.28 billion; 3,060 likes).
 
 BERT inherits the Transformer's encoder-only architecture (self-attention, dispensed
 recurrence/convolutions) and adds masked-language-model pre-training — which is exactly
